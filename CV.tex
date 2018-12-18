@@ -1,0 +1,356 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+%\usepackage{times}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.36in}
+\addtolength{\evensidemargin}{-0.36in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.50in}
+\addtolength{\textheight}{0.75in}
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-2pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://prrvalli.wixsite.com/valliappan-ca}{\Large \textcolor{blue}{Valliappan CA}}} & Link to my \href{https://scholar.google.co.in/citations?user=5aAnMwoAAAAJ&hl=en}{\textcolor{blue}{Google-Scholar}} $|$ Github ID : \href{https://github.com/nappaillav}{\textcolor{blue}{nappaillav}}\\
+  Email : \href{mailto:valliappan@paralleldots.com}{valliappan@paralleldots.com}  \\%Github ID:\href{https://github.com/PRRvalli}{PRRvalli} Email : \href{mailto:spmanikam@gmail.com}{spmanikam@gmail.com}
+\end{tabular*}
+%----------Research interest-----------------
+\section{Research Interest}
+  
+      {Deep Learning application in Speech Signal Processing and Computer Vision}
+      \vspace*{-2.5mm}
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Birla Institute of Technology and Science, Pilani}{India}
+      {Bachelor of Engineering in Electronics and Instrumentation;  GPA: 8.03/10}{Aug 2013 - Aug 2017}
+      \begin{comment}
+    \resumeSubheading
+    {Maharishi Vidya Mandir}{Chennai, India}
+      {Class \rom{12}:Central Board of Secondary Education  Percentage: 93.2\% }{ Aug 2012 - July 2013}
+      \resumeSubheading
+    {Maharishi Vidya Mandir}{Chennai, India}
+     {Class \rom{10}:Central Board of Secondary Education  Percentage: 98\%}{ Aug 2010 - July 2011}
+      \end{comment}
+  \resumeSubHeadingListEnd
+  \vspace*{-2.5mm}
+%-----------Research Experience-----------------
+\section{Bachelor Thesis}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Study of Broadband Reflectometry Data Using Non-Stationary Signal Processing}{BITS Pilani, India}
+      {Guide: Dr.\href{http://universe.bits-pilani.ac.in/goa/amalinprince/profile}{\textcolor{blue}{A.Amalin Prince}}}{Jan 2017 - May 2017}
+      \resumeItemListStart
+        \resumeItem{Abstract}
+          {Presented a comparative study of linear and non-linear signal processing methods
+like Wavelet decomposition, Empirical Mode Decomposition \& Ensemble Empirical Mode
+Decomposition on Broadband reflectometry data.\href{https://drive.google.com/file/d/10t6c10gRrJtQz1KwfsXgxr7PS_ABksOd/view?usp=sharing}{\textcolor{blue}{[PDF]}}}
+      \resumeItemListEnd
+
+ \resumeSubHeadingListEnd
+ \vspace*{-2.5mm}
+%-----------Publication-----------------
+\section{Publication}
+ \begin{itemize}
+ \item Renuka Mannem, \textbf{C.A.Valliappan}, Prasanta Kumar Ghosh.``A SegNet Based Image Enhancement Technique for Air-Tissue Boundary Segmentation in Real-Time Magnetic Resonance Imaging Video'', accepted in $25^{th}$ National Conference on Communications (NCC), 2019.
+ \item \textbf{C.A.Valliappan}, Renuka Mannem, Prasanta Kumar Ghosh. ``Air-Tissue Boundary Segmentation in Real-Time Magnetic Resonance Imaging Video using Semantic Segmentation with Fully Convolutional Networks'', accepted in  Interspeech 2018.\href{https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1939.pdf}{\textcolor{blue}{[Link]}}
+ \item \textbf{C.A.Valliappan}, Anurag Das, Prasanta Kumar Ghosh. ``Classification of story-telling and poem recitation using head gesture of the talker'', accepted in  International Conference on Signal Processing and Communications (SPCOM) 2018. \href{https://drive.google.com/open?id=1UUibe_Zs8rFzP__e8I4D4Wb0as40ep4d}{\textcolor{blue}{[Link]}}
+	\item Nalband S, \textbf{Valliappan CA}, Prince AA, \& Agarwal, ``Time frequency based feature extraction for the analysis of vibroarthographic signals'', in journal of Computers and Electrical Engineering, Elsevier Publication, 2018. \href{https://www.sciencedirect.com/science/article/pii/S0045790617329087}{\textcolor{blue}{[Link]}}
+	\item Nalband S, \textbf{Valliappan CA}, Gupta R, Prince AA, and Agarwal A, ``Feature Extraction and Classification of Knee Joint Disorders Using Hilbert Huang Transform'', $14^{th}$ IEEE Conference of ECTI Society, (ECTI-CON), 2017. \href{http://ieeexplore.ieee.org/abstract/document/8096224/}{\textcolor{blue}{[Link]}}
+	\item Balaji A, Haldar A, Patil K, Ruthvik TS,\textbf{ C.A. Valliappan}, Jartarkar M, Baths V. ``EEG-based classification of bilingual unspoken speech using ANN'', in Engineering in Medicine and Biology Society (EMBC), pp. 1022-1025, 2017.  \href{http://ieeexplore.ieee.org/document/8037000/}{\textcolor{blue}{[Link]}}
+	\item \textbf{C.A. Valliappan}, Advait Balaji, Sai Ruthvik Thandayam, Piyush Dhingra, and Veeky Baths. `` A Portable Real Time ECG Device for Arrhythmia Detection Using Raspberry Pi'', in International Conference on Wireless Mobile Communication and Healthcare, pp. 177-184. Springer, Cham, 2016. \href{https://www.springerprofessional.de/en/a-portable-real-time-ecg-device-for-arrhythmia-detection-using-r/12336602}{\textcolor{blue}{[Link]}}
+	
+
+\end{itemize} 
+%-----------Research Experience-----------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+      {Data Scientist at ParallelDots}{Gurgaon, India}
+      {Mentor:\href{https://www.linkedin.com/in/muktabh}{\textcolor{blue}{Muktabh Mayank}}}{October  2018 - Present}
+      \resumeItemListStart
+          \resumeItem{Role}
+          {Object tracking and Optical Character Recognition used for shelf monitoring}
+		\begin{itemize}
+		\item To develop \textbf{Automated Retail Auditing Tool }using state of the art object tracking techniques like SSD, YOLO and Faster RCNN. ‘ShelfWatch-Demo’ \href{https://www.karna.ai/retail-shelf-monitoring}{\textcolor{blue}{Link}}
+		\item Generation of artificial dataset from few images of retail products. 
+		\item Implemention of the Adaptive sampling on the dataset for improving the learning of the model.  
+		%\item Identification of duplicate image for shop monitoring using key point matching algorithm '\textbf{SuperPoint}'.
+		\item Analyzing the intricate details of the model, to reduce the false positives. 
+		\item OCR is used to supplement the results with addition details from the tracked objects. Custom trained SSD for text detection
+			
+		\end{itemize}    
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Assistant at SPIRE lab}{IISc, Bangalore, India}
+      {Mentor: Dr.\href{http://www.ee.iisc.ac.in/new/people/faculty/prasantg/}{\textcolor{blue}{Prasanta Kumar Ghosh}}}{June  2017 - September 2018}
+      % {Guide:Dr.\href{http://www.ee.iisc.ac.in/new/people/faculty/prasantg/}{Prasanta Kumar Ghosh}}
+      \resumeItemListStart
+        %\resumeItem{Guide}
+          %{Dr.\href{http://www.ee.iisc.ac.in/new/people/faculty/prasantg/}{Prasanta Kumar Ghosh}}
+          \resumeItem{Topic}
+          {Analysis and Synthesis of Head motion for Human-Computer Interaction}
+		\begin{itemize}
+		\item 3D-Audio visual Head motion database was created using Motion Capture System(\href{http://spire.ee.iisc.ac.in/spire/mocap.php}{MoCap}).
+		\item Estimating the Translation coordinates \& Euler angle from the head trajectory over the entire database.
+\item Investigate the nature of head gestures in spontaneous speech in comparison to that in rhythmic speech(singing).	
+\end{itemize}
+
+\resumeItem{Topic}
+          {Audio-Visual Synthesis for Realistic Agent}
+		
+
+\begin{itemize}
+
+
+	\item  Extraction of Lip shape from Audio Visual Corpus.\href{http://spire.ee.iisc.ac.in/spire/database.php}{\textbf{PRAV}} \item  Synthesis of Lip movement from the acoustic feature of the speaker using \textbf{LSTM} network. 
+		\item Optimal loss lip motion synthesized using Dynamic programming.  \href{https://www.youtube.com/watch?v=rBgG4szMQhQ}{Video}
+			
+		\end{itemize}    
+      \resumeItemListEnd
+      \begin{comment}
+      \resumeSubheading
+      {Intern at SPIRE lab}{IISc, Bangalore, India}
+      {Guide:Prasanta Kumar Ghosh}{May 2016 - Aug 2016}
+      
+      \resumeItemListStart
+        %\resumeItem{Guide}
+          %{Dr.\href{http://www.ee.iisc.ac.in/new/people/faculty/prasantg/}{Prasanta Kumar Ghosh}}
+          \resumeItem{Topic}
+          {Audio-Visual Synthesis for Realistic Agent}
+		\begin{itemize}
+		\item  Extraction of Lip shape from Audio Visual Corpus.\href{http://spire.ee.iisc.ac.in/spire/database.php}{\textbf{PRAV}} \item  Synthesis of Lip movement from the acoustic feature of the speaker using \textbf{LSTM} network. 
+		\item Optimal loss lip motion synthesized using Dynamic programming. Demo  \href{https://www.youtube.com/watch?v=rBgG4szMQhQ}{Video}    
+		\end{itemize}    
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Intern at Madras Atomic Power Station}{Kalpakkam, India}
+      {Guide:N.Chokalingam}{May 2015 - July 2015}
+      
+      \resumeItemListStart
+        %\resumeItem{Guide}
+          %{Dr.\href{http://www.ee.iisc.ac.in/new/people/faculty/prasantg/}{Prasanta Kumar Ghosh}}
+          \resumeItem{Topic}
+          {Amplifier Design For Area Radiation Monitoring System}
+		\begin{itemize}
+		\item Reviewing \& modifying the amplifier system in the Radiation Monitoring unit
+of the plant with industrial standard ICs.
+		\end{itemize}    
+      \resumeItemListEnd
+      \end{comment}
+
+ \resumeSubHeadingListEnd
+
+%-----------Projects-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+      {Decision making system using the reviewer scores and comments for the submitted paper}{IISc Bangalore}
+      {Guide:Prof.Prasanta Kumar Ghosh}{August 2018}
+		
+		\vspace*{-1.5mm}
+		\begin{itemize}
+		\item Xgboot model was learnt using the features reviewer comment and scoces. \href{https://github.com/nappaillav/reviewclassification}{\textcolor{blue}{[code]}}\vspace*{-1.5mm}
+		\item The model was trained on the previous years data and tested on current edition, which gave an accuracy of $\sim90\%$.\vspace*{-1.5mm}
+		\end{itemize}
+
+\resumeSubheading
+      {Air-Tissue Boundary segmentation in rt-MRI video using semantic segmentation}{IISc Bangalore}
+      {Guide:Prof.Prasanta Kumar Ghosh}{Dec 2017 - March 2018}
+		
+		\vspace*{-1.5mm}
+		\begin{itemize}
+		\item Semantic segmentation using the Deep learning architecture called Fully Convolutional Networks and SegNet.\vspace*{-1.5mm}
+		\item Currently, my approach to this ATB segmentation produces $\sim10\%$ less error rate than the baseline. \href{https://github.com/nappaillav/RTMRI-Segmentation}{\textcolor{blue}{[code]}}\vspace*{-1.5mm}
+		\end{itemize}    
+
+    
+    \resumeSubheading
+      {De-Noising technique for frequency signal recorded from ships}{BITS Pilani}
+      {Guide:Prof.Neena Goveas}{Jan 2017 - May 2017}
+		
+		\vspace*{-1.5mm}
+		\begin{itemize}
+		\item This project involved experimenting different sequential models for denoising the frequency signals.\vspace*{-1.5mm}
+		\item Experimented various loss functions other than MSE for deployed model.\vspace*{-1.5mm}
+		\end{itemize}    
+ \begin{comment}   
+      
+%      \resumeSubheading
+%      {Audio-Visual Synthesis}{IISc Bangalore, India}
+%      {Guide:Prof. Prasanta Kumar Ghosh}{Jun 2016 - Aug 2016}
+%		\begin{itemize}
+%		\item  Extraction of Lip shape from Audio Visual Corpus.\href{http://spire.ee.iisc.ac.in/spire/database.php}{\textbf{PRAV}} \item  Synthesis of Lip movement from the acoustic feature of the speaker using \textbf{LSTM} network.
+%		\end{itemize}  
+		
+	
+      
+\resumeSubheading
+	% polish it with a better title 
+      {EEG-based Classification of Bilingual Unspoken Speech using ANN}{BITS Pilani}
+      {Guide:Prof.Veeky Baths}{Dec 2016 - Feb 2017}
+     
+\vspace*{-1.5mm}
+		\begin{itemize}
+		\item This work was done to understand the ability of EEG signal to interpret unspoken or imagined speech.\href{https://github.com/nappaillav/Heart_Rate_monitoring_Device}{\textcolor{blue}{[code]}}\vspace*{-1.5mm}
+		%\item Find active regions of brain towards different language \& decision making.
+		\item The best accuracy of 85.20\% \& 92.18\% for decision and language classification respectively and the overall accuracy of bilingual speech classification was 75.38\%.
+		\vspace*{-1.5mm}
+		\end{itemize}
+\end{comment}
+     \resumeSubheading
+	% polish it with a better title 
+      {Comparative study of signal decomposition technique using Time-Frequency Image}{BITS Pilani}
+      {Guide:Prof.A. Amalin Prince}{Jan 2016 - Dec 2016}
+     \vspace*{-1.5mm}
+
+		\begin{itemize}
+		\item Investigated the non-linear decomposition techniques like Wavelet, Empirical Mode Decomposition(EMD) \& Ensemble Empirical Mode Decomposition(EEMD) for time-frequency imaging.\vspace*{-1.5mm}
+\item Analyzed the performance of each method using the features extracted from Time Frequency image. \vspace*{-1.5mm}
+
+		\end{itemize}		
+		
+\resumeSubheading
+	% polish it with a better title 
+      {Portable Real Time ECG Device for Arrhythmia Detection Using Raspberry Pi}{BITS Pilani}
+      {Guide:Prof.Veeky Baths}{Jan 2016 - Dec 2016}
+      
+\vspace*{-1.5mm}
+		\begin{itemize}
+	    	\item Real-Time ECG tracking device with special emphasis on arrhythmia detection, completely Portable with Mobile Application, Build using RasPi-3.\href{https://github.com/nappaillav/Heart_Rate_monitoring_Device}{\textcolor{blue}{[code]}}
+	    	 \vspace*{-1.5mm}
+	    	%\item Making it completely Portable with Mobile Application, Build using RaspPi-3.
+	    	\item The arrhythmia detection algorithm tested on MIT-BIH database and reported an accuracy greater than 95\%.
+	    	\vspace*{-1.5mm}
+		\end{itemize}
+		
+\begin{comment}		
+\resumeSubheading
+	% polish it with a better title 
+      {Feature Extraction and Classification of Knee Joint signal}{BITS Pilani}
+      {Guide:Prof.A. Amalin Prince}{Aug 2015 - Dec 2015}\vspace*{-1.5mm}
+		\begin{itemize}
+		\item Hilbert Huang Transform was applied on the signal to extract the features.\vspace*{-1.5mm}
+		\item Performance was evaluated and compared to the previously existing methods using LS-SVM \& Random Forest.\vspace*{-1.5mm}
+		\end{itemize}	  
+ \end{comment}   		
+ \resumeSubHeadingListEnd
+%-----------Public repository-----------------
+%\section{Public Repository}
+
+ %      \textbf{Phoneme to Word (Phoneme2word)}
+  %     \vspace*{-2mm}
+   %   \begin{itemize}
+    %      \item Phoneme2word is a tool to convert phonemes sequences from forced alignment results into words sequence. Link to the \href{https://github.com/PRRvalli/phoneme2word}{Repository}\vspace*{-2mm}
+     % \end{itemize}
+    %\end{itemize}  
+
+%-----------Position of Responsibility-----------------
+\section{Position of Responsibility}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+      {Teaching Assistant for EEE-F434 Digital Signal Processing}{BITS Pilani}
+      {Set programming assignments for Hardware and Software implementation
+of DSP algorithms}{Jan 2016-May 2016}
+      \resumeSubheading
+      {Teaching Assistant for CS-F111 Computer Programming}{BITS Pilani}
+      {Evaluated assignments of the students and ensured smooth functioning of
+Lab session}{Jan 2015-May 2015}
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------Skills-----------------
+
+\section{Skills}
+\begin{itemize}
+\item \textbf{Languages}: C, C++, Python, MATLAB, UNIX Shell Script, \LaTeX.
+\item \textbf{Deep Learning Libraries}: Pytorch, Keras and Tensorflow.
+\end{itemize}
+%-----------Achievements-----------------
+\section{Achievements \& Awards}
+\begin{itemize}
+\item Travel Grant Recipient for \href{https://interspeech2018.org/}{\textcolor{blue}{INTERSPEECH}} - 2018. 
+\item Participated at \href{https://icpc.baylor.edu/ICPCID/QDI825ZM40CC}{\textcolor{blue}{ACM-ICPC}} Asia Amritapuri Multisite Regional Contest 2016 and 2014.
+\item Course topper in \textbf{Digital Signal Processing , Digital design}
+\item Awarded the best Student project in \href{https://hackinout.co/}{Hackathon INOUT 3.0} held in NIT Surat for "The Portable Real Time ECG Device using Raspberry Pi". This work was presented as a paper in \href{http://archive.mobihealth.name/2016/show/home}{\textcolor{blue}{Mobhihealth}}-2016, in Milan.
+
+\end{itemize}
+%-----------EXPERIENCE-----------------
+\footnote{Last Updated: \today}
+%-------------------------------------------
+\end{document}
